@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    container_name: app
+    build: node
+    tty: true
+    volumes:
+      - ./plugin:/usr/src/plugin
