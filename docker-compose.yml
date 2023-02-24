@@ -1,7 +1,7 @@
 version: '3'
 services:
-  app:
-    container_name: app
+  kintone-plugin:
+    container_name: kintone-plugin
     build: node
     tty: true
     ports:
