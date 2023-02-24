@@ -2,7 +2,7 @@
 FROM node:latest
 
 # ディレクトリを移動する
-WORKDIR usr/src/plugin
+WORKDIR usr/src
 
 # ポート3000番を開放する
 EXPOSE 3000
