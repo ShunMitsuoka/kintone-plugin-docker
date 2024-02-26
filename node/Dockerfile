@@ -1,5 +1,5 @@
 # ベースイメージを指定
-FROM node:latest
+FROM node:19.9.0
 
 # ディレクトリを移動する
 WORKDIR usr/src/plugin
